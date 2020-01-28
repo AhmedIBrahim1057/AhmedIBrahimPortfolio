@@ -14,10 +14,15 @@ $(document).ready(function(){
             $("nav").removeClass("scrolled");
         }
     });
-
-    AOS.init({
-        delay: 100,
-        duration: 1000
-    });
+    $(function() {
+        AOS.init({
+            delay: 100,
+            duration: 800
+        });
+      });
+      
+      $(window).on('load', function() {
+        AOS.refresh();
+      });
 
 });

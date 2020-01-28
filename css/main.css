@@ -152,6 +152,7 @@ header .banner nav .menu ul li a:hover {
 header .banner .intro .info {
   padding-top: 180px;
   padding-left: 100px;
+  overflow: hidden;
   font-family: "Rubik", sans-serif;
 }
 header .banner .intro .info h2 {
@@ -325,6 +326,7 @@ header .banner .intro .image img {
   header .banner .intro .image {
     width: 70%;
     margin: 0 auto;
+    overflow: hidden;
   }
   header .banner .intro .image img {
     width: 100%;
